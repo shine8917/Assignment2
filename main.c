@@ -32,14 +32,12 @@ int main(void)
 void filestat1(void)
 {
 	stat("text1", &stat1);
-	printf("text1 : %d \n",stat1.st_size);
 }
 
 //파일 2의 정보를 가져오는 함수 작성
 void filestat2(void)
 {
 	stat("text2", &stat2);
-	printf("text2 : %d \n", stat2.st_size);
 }
 
 //파일 1의 시간 정보를 가져오는 함수 작성
